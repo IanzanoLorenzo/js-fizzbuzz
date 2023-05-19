@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(13, 78, 136);
+    color: white;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(177, 30, 4);
+    margin
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
