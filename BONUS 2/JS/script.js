@@ -10,7 +10,7 @@ for (let n = 1; n <= 100; n++){
     risposta = '';
 
     if( resto3 === 0){
-        risposta += 'Frizz';
+        risposta += 'Fizz';
     }
     if( resto5 === 0){
         risposta += 'Buzz';

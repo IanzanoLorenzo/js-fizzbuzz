@@ -33,7 +33,16 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: rgb(7, 31, 51);
+    transition: 0.2s linear;
+    background-position: center;
+}
+
+li:hover{
+    font-size: 35px;
+    background-color: whitesmoke;
 }
 
 .color1{
@@ -46,6 +55,21 @@ li{
 
 .color3{
  background-color: rgb(255, 207, 118);
+}
+
+.color1:hover{
+    background-image: url(../IMG/fizz.jpg);
+    background-size: cover;
+}
+
+.color2:hover{
+    background-image: url(../IMG/buzz.webp);
+    background-size: cover;
+}
+
+.color3:hover{
+    background-image: url(../IMG/fizzbuzz.jpeg);
+    background-size: cover;
 }
 
 .container{
