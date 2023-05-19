@@ -19,6 +19,8 @@ for (let n = 1; n <= 100; n++){
         risposta = n
     }
 
-    lista.innerHTML +=  `<li>${risposta}</li>`
+    const listItem = document.createElement('li');
+    listItem.innerText = risposta;
+    lista.append(listItem);
 
 }
