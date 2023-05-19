@@ -1,4 +1,5 @@
 let risposta;
+const lista = document.getElementById('lista')
 
 for (let n = 1; n <= 100; n++){
         
@@ -16,5 +17,5 @@ for (let n = 1; n <= 100; n++){
         risposta = n
     }
 
-    console.log(risposta)
+    lista.innerHTML +=  `<li>${risposta}</li>`
 }
