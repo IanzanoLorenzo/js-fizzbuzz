@@ -7,13 +7,13 @@
 
 body{
     background-color: rgb(13, 78, 136);
-    color: white;
 }
 
 h1{
     text-align: center;
     text-transform: uppercase;
     margin-top: 30px;
+    color: white;
 }
 
 ul{
@@ -24,10 +24,28 @@ ul{
 
 li{
     list-style: none;
-    width: 160px;
-    height: 160px;
-    background-color: rgb(177, 30, 4);
-    margin
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    margin: 15px;
+    box-shadow: 0 0 10px black;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.color1{
+    background-color: rgb(224, 67, 67);
+}
+
+.color2{
+    background-color: rgb(88, 88, 243);
+}
+
+.color3{
+ background-color: rgb(255, 207, 118);
 }
 
 .container{
