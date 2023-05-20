@@ -20,8 +20,9 @@ h1{
 
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 
 li{
@@ -29,7 +30,7 @@ li{
     width: 150px;
     height: 150px;
     background-color: yellowgreen;
-    margin: 15px;
+    margin: 10px auto;
     box-shadow: 0 0 10px black;
     text-transform: capitalize;
     display: flex;
@@ -72,9 +73,4 @@ li:hover{
 .color3:hover{
     background-image: url(../IMG/fizzbuzz.jpeg);
     background-size: cover;
-}
-
-.container{
-    width: 900px;
-    margin: 0 auto;
 }
