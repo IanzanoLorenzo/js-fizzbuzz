@@ -15,7 +15,7 @@ for (let n = 1; n <= 100; n++){
     if( resto5 === 0){
         risposta += 'Buzz'
     }
-    if( resto3 !== 0 && resto5 !== 0 ){
+    if( risposta = '' ){
         risposta = n
     }
 
